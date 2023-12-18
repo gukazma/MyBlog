@@ -1,0 +1,84 @@
+[[main]]
+    # Top-level menu entry
+    identifier = "work"
+    name = "工作"
+    url = "/projects/"
+    weight = 1
+
+[[main]]
+    identifier = "projects"
+    name = "项目"
+    url = "/projects/"
+    parent = "work"
+    weight = 1
+
+[[main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    parent = "work"
+    weight = 2
+
+[[main]]
+    identifier = "contact"
+    name = "联系我"
+    url = "/contact/"
+    parent = "work"
+    weight = 3
+
+[[main]]
+    # Top-level menu entry
+    identifier = "writing"
+    name = "写作"
+    url = "/posts/"
+    weight = 4
+
+[[main]]
+    identifier = "posts"
+    name = "所有的文章"
+    url = "/posts/"
+    parent = "writing"
+    weight = 4
+
+[[main]]
+    identifier = "subsection"
+    name = "小节"
+    url = "/subsection/"
+    # url = "/posts/subsection/" # Remove url param from subsection/_index.md frontmatter to use full permalink
+    parent = "writing"
+    weight = 5
+
+[[main]]
+    # Top-level menu entry
+    identifier = "explore"
+    name = "探索"
+    url = "/categories/"
+    weight = 6
+
+[[main]]
+    identifier = "categories"
+    name = "分类"
+    url = "/categories/"
+    parent = "explore"
+    weight = 6
+
+[[main]]
+    identifier = "tags"
+    name = "标签"
+    url = "/tags/"
+    parent = "explore"
+    weight = 7
+
+[[main]]
+    identifier = "series"
+    name = "系列"
+    url = "/series/"
+    parent = "explore"
+    weight = 8
+
+[[main]]
+    identifier = "project-type"
+    name = "项目分类"
+    url = "/project-types/"
+    parent = "explore"
+    weight = 9
